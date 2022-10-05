@@ -1,4 +1,4 @@
-#Primeiro desafio Docker
+# Primeiro desafio Docker
 
 - Criar executável em GO que imprime a frase "Code.education Rocks!"
 - Criar uma imagem com 2MB
