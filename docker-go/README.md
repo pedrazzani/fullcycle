@@ -5,10 +5,10 @@
 
 ## Criando a Imagem
 ```
-docker build -t <seu-usuario-docker>/codeeducation .
+docker build -t pedrazzani/codeeducation .
 ```
 
 ## Rodando o container
 ```
-docker run <seu-usuario-docker>/codeeducation
+docker run pedrazzani/codeeducation
 ```
