@@ -1,0 +1,16 @@
+name: Desafio pipeline de CI
+on:
+  pull_request:
+    branches:
+      - develop
+    paths:
+      - git-actions/**
+jobs:
+  Test-Run-Build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm test
