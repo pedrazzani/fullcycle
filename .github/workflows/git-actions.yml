@@ -13,5 +13,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install ./git-actions/
-      - run: npm test ./git-actions/
+      - run: cd git-actions
+      - run: npm install
+      - run: npm test
